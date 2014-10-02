@@ -8,8 +8,6 @@ Aircrack-ng's wiki page about [injection testing](http://www.aircrack-ng.org/dok
 
 > If you get a failure on attack 5, it may still work in the field if the injection MAC address matches the current card MAC address. With some drivers, it will fail if they are not the same.
 
-If the wireless interface proves to work in my lab for the fragmentation attack, then it is going to be mentioned in a separate column.
+If the wireless interface proves to work in my lab for the fragmentation attack, then it is going to be mentioned in a separate column. I use Kali Linux 1.0.9 and Aircrack-ng 1.2-beta3 for gatherting this information.
 
-Product | Chipset | PCI ID | Bus | Driver / Version | -0 | -1 (open) | -1 (psk) | -2/-3/-4/-6 | -5/-7 | -5 in the field
----|---|---|---|---|---|---|---|---|---|---
-AirForce One 54g | BCM4318 | 14e4:4318 | Mini PCI | b43 / 3.14.5-1 | OK | OK | OK | OK | OK | Yes
+Due to the fact that GitHub uses "toiler paper design", hence I can't fit a table without having a horizontal scroll, even on a FullHD screen, the information about the hardware is [here](http://saltwaterc.github.io/aircrack-db).
