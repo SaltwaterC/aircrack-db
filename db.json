@@ -23,7 +23,7 @@
         "OK",
         "OK",
         "Failed",
-        "Untested"
+        "Yes"
     ],
     [
         "ALFA Network AWUS051NH",
@@ -36,7 +36,7 @@
         "OK",
         "OK",
         "Failed",
-        "Untested"
+        "Yes"
     ],
     [
         "Canyon CNP-WF518N1",
@@ -75,7 +75,7 @@
         "OK",
         "OK",
         "Failed",
-        "Untested"
+        "Yes"
     ],
     [
         "ALFA Network AWUS036H",
@@ -88,7 +88,7 @@
         "OK",
         "OK",
         "OK",
-        "Untested"
+        "Yes"
     ],
     [
         "WiFi Link 5100",
@@ -101,6 +101,6 @@
         "OK",
         "OK",
         "Failed",
-        "Untested"
+        "No"
     ]
 ]
