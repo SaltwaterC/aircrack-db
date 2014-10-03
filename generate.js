@@ -9,7 +9,7 @@ var i, j, product, split, row, rows = [], cell, cells;
 
 for (i = 0; i < db.length; i++) {
 	product = db[i];
-	row = '\t\t<tr>\n';
+	row = '\t\t\t<tr>\n';
 	cells = '';
 	for (j = 0; j < product.length; j++) {
 		cell = product[j];
@@ -37,9 +37,9 @@ for (i = 0; i < db.length; i++) {
 			cell = '<span class="label label-warning">' + cell + '</span>';
 		}
 		
-		cells += '\t\t\t<td>' + cell + '</td>\n';
+		cells += '\t\t\t\t<td>' + cell + '</td>\n';
 	}
-	row += cells + '\t\t</tr>';
+	row += cells + '\t\t\t</tr>';
 	rows.push(row);
 }
 
