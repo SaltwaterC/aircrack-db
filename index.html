@@ -5,151 +5,159 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>aircrack-db tested hardware</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="ripples.min.css" rel="stylesheet">
+	<link href="material-wfont.min.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="alert alert-info" role="alert">
-		<p>The details about the project are <a href="https://github.com/SaltwaterC/aircrack-db" title="aircrack-db is a list of wireless interfaces tested with the dual-card injection test and in the field.">available on GitHub</a>.</p>
+	<div class="well well-sm">
+		The details about the project are <a href="https://github.com/SaltwaterC/aircrack-db" title="aircrack-db is a list of wireless interfaces tested with the dual-card injection test and in the field.">available on GitHub</a>.
 	</div>
 	
-	<table class="table">
-		<tr>
-			<th>Product</th>
-			<th>Chipset</th>
-			<th>PCI / USB ID</th>
-			<th>Interface</th>
-			<th>Driver / Version</th>
-			<th>-0</th>
-			<th>-1 (open)</th>
-			<th>-1 (psk)</th>
-			<th>-2/-3/-4/-6</th>
-			<th>-5/-7</th>
-			<th>-5 in the field</th>
-		</tr>
-		<tr>
-			<td>AirForce One 54g</td>
-			<td>BCM4318</td>
-			<td><a href="http://pci-ids.ucw.cz/read/PC/14e4/4318">14e4:4318</a></td>
-			<td>Mini PCI</td>
-			<td>b43 / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">Yes</span></td>
-		</tr>
-		<tr>
-			<td>Unex DNUA-93F</td>
-			<td>AR9271</td>
-			<td><a href="http://usb-ids.gowdy.us/read/UD/0cf3/9271">0cf3:9271</a></td>
-			<td>USB 2.0</td>
-			<td>ath9k_htc / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-success">Yes</span></td>
-		</tr>
-		<tr>
-			<td>ALFA Network AWUS051NH</td>
-			<td>RT2770</td>
-			<td><a href="http://usb-ids.gowdy.us/read/UD/148f/2770">148f:2770</a></td>
-			<td>USB 2.0</td>
-			<td>rt2800usb / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-success">Yes</span></td>
-		</tr>
-		<tr>
-			<td>Canyon CNP-WF518N1</td>
-			<td>RT2870/RT3070</td>
-			<td><a href="http://usb-ids.gowdy.us/read/UD/148f/3070">148f:3070</a></td>
-			<td>USB 2.0</td>
-			<td>rt2800usb / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-warning">Untested</span></td>
-		</tr>
-		<tr>
-			<td>Naked adapter</td>
-			<td>RTL8188CUS</td>
-			<td><a href="http://usb-ids.gowdy.us/read/UD/0bda/8176">0bda:8176</a></td>
-			<td>USB 2.0</td>
-			<td>rtl8192cu / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-warning">Untested</span></td>
-		</tr>
-		<tr>
-			<td>TP-LINK TL-WN722N</td>
-			<td>AR9271</td>
-			<td><a href="http://usb-ids.gowdy.us/read/UD/0cf3/9271">0cf3:9271</a></td>
-			<td>USB 2.0</td>
-			<td>ath9k_htc / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-success">Yes</span></td>
-		</tr>
-		<tr>
-			<td>ALFA Network AWUS036H</td>
-			<td>RTL8187</td>
-			<td><a href="http://usb-ids.gowdy.us/read/UD/0bda/8187">0bda:8187</a></td>
-			<td>USB 2.0</td>
-			<td>rtl8187 / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">Yes</span></td>
-		</tr>
-		<tr>
-			<td>WiFi Link 5100</td>
-			<td>2 x WG82541RDE</td>
-			<td><a href="http://pci-ids.ucw.cz/read/PC/8086/4232">8086:4232</a></td>
-			<td>Mini PCIe</td>
-			<td>iwlwifi / 3.14.5-1</td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-success">OK</span></td>
-			<td><span class="label label-danger">Failed</span></td>
-			<td><span class="label label-danger">No</span></td>
-		</tr>
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+				<th>Product</th>
+				<th>Chipset</th>
+				<th>PCI / USB ID</th>
+				<th>Interface</th>
+				<th>Driver / Version</th>
+				<th>-0</th>
+				<th>-1 (open)</th>
+				<th>-1 (psk)</th>
+				<th>-2/-3/-4/-6</th>
+				<th>-5/-7</th>
+				<th>-5 in the field</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>AirForce One 54g</td>
+				<td>BCM4318</td>
+				<td><a href="http://pci-ids.ucw.cz/read/PC/14e4/4318">14e4:4318</a></td>
+				<td>Mini PCI</td>
+				<td>b43 / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">Yes</span></td>
+			</tr>
+			<tr>
+				<td>Unex DNUA-93F</td>
+				<td>AR9271</td>
+				<td><a href="http://usb-ids.gowdy.us/read/UD/0cf3/9271">0cf3:9271</a></td>
+				<td>USB 2.0</td>
+				<td>ath9k_htc / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-success">Yes</span></td>
+			</tr>
+			<tr>
+				<td>ALFA Network AWUS051NH</td>
+				<td>RT2770</td>
+				<td><a href="http://usb-ids.gowdy.us/read/UD/148f/2770">148f:2770</a></td>
+				<td>USB 2.0</td>
+				<td>rt2800usb / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-success">Yes</span></td>
+			</tr>
+			<tr>
+				<td>Canyon CNP-WF518N1</td>
+				<td>RT2870/RT3070</td>
+				<td><a href="http://usb-ids.gowdy.us/read/UD/148f/3070">148f:3070</a></td>
+				<td>USB 2.0</td>
+				<td>rt2800usb / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-warning">Untested</span></td>
+			</tr>
+			<tr>
+				<td>Naked adapter</td>
+				<td>RTL8188CUS</td>
+				<td><a href="http://usb-ids.gowdy.us/read/UD/0bda/8176">0bda:8176</a></td>
+				<td>USB 2.0</td>
+				<td>rtl8192cu / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-warning">Untested</span></td>
+			</tr>
+			<tr>
+				<td>TP-LINK TL-WN722N</td>
+				<td>AR9271</td>
+				<td><a href="http://usb-ids.gowdy.us/read/UD/0cf3/9271">0cf3:9271</a></td>
+				<td>USB 2.0</td>
+				<td>ath9k_htc / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-success">Yes</span></td>
+			</tr>
+			<tr>
+				<td>ALFA Network AWUS036H</td>
+				<td>RTL8187</td>
+				<td><a href="http://usb-ids.gowdy.us/read/UD/0bda/8187">0bda:8187</a></td>
+				<td>USB 2.0</td>
+				<td>rtl8187 / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">Yes</span></td>
+			</tr>
+			<tr>
+				<td>WiFi Link 5100</td>
+				<td>2 x WG82541RDE</td>
+				<td><a href="http://pci-ids.ucw.cz/read/PC/8086/4232">8086:4232</a></td>
+				<td>Mini PCIe</td>
+				<td>iwlwifi / 3.14.5-1</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">No</span></td>
+			</tr>
+		</tbody>
 	</table>
 	
-	<hr>
-	
-	<div>
-		<p>-0 / -1 / -2 / -3 / -4 / -5 / -6 / -7 - the attack modes of aireplay-ng with the results for the card to card injection test</p>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			-0 / -1 / -2 / -3 / -4 / -5 / -6 / -7 - the attack modes of aireplay-ng with the results for the card to card injection test
+		</div>
 	</div>
 	
-	<hr>
-	
 	<div>
-		<p>Chipset manufacturers:</p>
-		<ul class="list-group">
-			<li class="list-group-item">14e4 - Broadcom Corporation</li>
-			<li class="list-group-item">0cf3 - Atheros Communications, Inc.</li>
-			<li class="list-group-item">148f - Ralink Technology, Corp.</li>
-			<li class="list-group-item">0bda - Realtek Semiconductor Corp.</li>
-			<li class="list-group-item">8086 - Intel Corporation</li>
-		</ul>
+		<p>Chipset vendors:</p>
+		<div class="list-group">
+			<div class="list-group-item">14e4 - Broadcom Corporation</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item">0cf3 - Atheros Communications, Inc.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item">148f - Ralink Technology, Corp.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item">0bda - Realtek Semiconductor Corp.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item">8086 - Intel Corporation</div>
+		</div>
 	</div>
 	
 	<footer class="footer">
