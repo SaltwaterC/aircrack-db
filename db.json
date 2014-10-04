@@ -49,7 +49,7 @@
         "OK",
         "OK",
         "Failed",
-        "Untested"
+        "Yes"
     ],
     [
         "Naked adapter",
@@ -101,6 +101,19 @@
         "OK",
         "OK",
         "Failed",
+        "No"
+    ],
+    [
+        "MacBook Air 6,2",
+        "BCM4360",
+        "pci:14e4:43a0",
+        "Soldered",
+        "wl / 6.30.223.248",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
         "No"
     ]
 ]
