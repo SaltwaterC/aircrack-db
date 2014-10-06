@@ -26,7 +26,7 @@
         "Yes"
     ],
     [
-        "ALFA Network AWUS051NH",
+        "ALFA Network AWUS051NH; The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11b/g/n works only on 2.4GHz.",
         "RT2770",
         "usb:148f:2770",
         "USB 2.0",
@@ -52,7 +52,7 @@
         "Yes"
     ],
     [
-        "Naked adapter",
+        "Naked adapter; The adapter was sold without casing. It is only the board with a solered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.",
         "RTL8188CUS",
         "usb:0bda:8176",
         "USB 2.0",
