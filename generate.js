@@ -30,7 +30,7 @@ for (i = 0; i < db.length; i++) {
 			}
 			
 			if (split[0] === 'usb') {
-				cell = '<a href="http://usb-ids.gowdy.us/read/UD/' + split[1] + '/' + split[2] + '">' + split[1] + ':' + split[2] + '</a>';
+				cell = '<a href="https://usb-ids.gowdy.us/read/UD/' + split[1] + '/' + split[2] + '">' + split[1] + ':' + split[2] + '</a>';
 			}
 		}
 		
