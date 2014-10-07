@@ -52,7 +52,7 @@
         "Yes"
     ],
     [
-        "Naked adapter; The adapter was sold without casing. It is only the board with a solered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.",
+        "Naked adapter; The adapter was sold without casing. It is only the board with a soldered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.",
         "RTL8188CUS",
         "usb:0bda:8176",
         "USB 2.0",
