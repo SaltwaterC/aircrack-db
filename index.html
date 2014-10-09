@@ -137,11 +137,24 @@
 				<td><span class="label label-danger">No</span></td>
 			</tr>
 			<tr>
-				<td>MacBook Air 6,2</td>
+				<td>MacBook Air 6,2 <a href="#note-3"><sup>3</sup></a></td>
 				<td>BCM4360</td>
 				<td><a href="http://pci-ids.ucw.cz/read/PC/14e4/43a0">14e4:43a0</a></td>
 				<td>Soldered</td>
 				<td>wl / 6.30.223.248</td>
+				<td><span class="label label-danger">No</span></td>
+				<td><span class="label label-danger">No</span></td>
+				<td><span class="label label-danger">No</span></td>
+				<td><span class="label label-danger">No</span></td>
+				<td><span class="label label-danger">No</span></td>
+				<td><span class="label label-danger">No</span></td>
+			</tr>
+			<tr>
+				<td>Netis WF2190 <a href="#note-4"><sup>4</sup></a></td>
+				<td>RTL8812AU</td>
+				<td><a href="https://usb-ids.gowdy.us/read/UD/0bda/8812">0bda:8812</a></td>
+				<td>USB 3.0</td>
+				<td>8812au / 4.3.8</td>
 				<td><span class="label label-danger">No</span></td>
 				<td><span class="label label-danger">No</span></td>
 				<td><span class="label label-danger">No</span></td>
@@ -158,6 +171,10 @@
 			<div class="list-group-item"><a name="note-1"></a>1: The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11b/g/n works only on 2.4GHz.</div>
 			<div class="list-group-separator"></div>
 			<div class="list-group-item"><a name="note-2"></a>2: The adapter was sold without casing. It is only the board with a soldered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-3"></a>3: The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href="http://www.broadcom.com/docs/linux_sta/README.txt">this document</a>. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-4"></a>4: The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.</div>
 		</div>
 	</div>
 	
