@@ -2,7 +2,14 @@
 
 aircrack-db is a list of wireless interfaces tested with the dual-card injection test and in the field.
 
-The driver name is the name of the kernel module used by the card. The driver version is either the kernel version or the version of the [compat-wireless / compat-drivers / backports](https://backports.wiki.kernel.org/index.php/Main_Page) drivers if they were installed separately. All of the kernel provided drivers are mac80211 drivers. The hardware vendors usually don't bother to implement monitoring mode in their drivers. A common example is the wl driver from Broadcom. If a proprietary driver is in use, then the version won't reflect the kernel version / backports version.
+The driver name is the name of the kernel module used by the card.
+
+The driver version is:
+
+ * The kernel version or the version of the [compat-wireless / compat-drivers / backports](https://backports.wiki.kernel.org/index.php/Main_Page) drivers if they were installed separately.
+ * The version of the vendor driver if a kernel supplied driver is unavailable.
+ 
+All of the kernel provided drivers are mac80211 drivers. Some vendor supplied drivers may use the legacy ieee80211 stack.
 
 Aircrack-ng's wiki page about [injection testing](http://www.aircrack-ng.org/doku.php?id=injection_test) states:
 

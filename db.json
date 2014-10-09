@@ -104,11 +104,24 @@
         "No"
     ],
     [
-        "MacBook Air 6,2",
+        "MacBook Air 6,2; The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href=\"http://www.broadcom.com/docs/linux_sta/README.txt\">this document</a>. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.",
         "BCM4360",
         "pci:14e4:43a0",
         "Soldered",
         "wl / 6.30.223.248",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+    ],
+    [
+        "Netis WF2190; The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.",
+        "RTL8812AU",
+        "usb:0bda:8812",
+        "USB 3.0",
+        "8812au / 4.3.8",
         "No",
         "No",
         "No",
