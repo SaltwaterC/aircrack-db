@@ -26,11 +26,11 @@
         "Yes"
     ],
     [
-        "ALFA Network AWUS051NH; The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11b/g/n works only on 2.4GHz.",
+        "ALFA Network AWUS051NH; The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11n works only on 2.4GHz. With the 3.17-rc3-1 driver it can capture WPA handshakes on 5GHz, but it can run only as a completely passive attack.",
         "RT2770",
         "usb:148f:2770",
         "USB 2.0",
-        "rt2800usb / 3.14.5-1",
+        "rt2800usb / 3.17-rc3-1",
         "OK",
         "OK",
         "OK",
