@@ -134,7 +134,7 @@
         "WL1 AR9287",
         "pci:168c:002e",
         "Mini PCIe (half)",
-        "ath9k_htc / 3.14.5-1",
+        "ath9k / 3.14.5-1",
         "OK",
         "OK",
         "OK",
