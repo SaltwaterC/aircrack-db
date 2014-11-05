@@ -105,7 +105,7 @@
     ],
     [
         "Broadcom BCM94360CD; The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href=\"http://www.broadcom.com/docs/linux_sta/README.txt\">this document</a>. The card is installed into a MacBook Air 6,2. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.",
-        "BCM4360",
+        "WL1 BCM4360",
         "pci:14e4:43a0",
         "PCIe (non-standard)",
         "wl / 6.30.223.248",
