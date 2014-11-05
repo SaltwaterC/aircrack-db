@@ -1,7 +1,7 @@
 [
     [
-        "AirForce One 54g",
-        "BCM4318",
+        "ASUS WL-120g v2",
+        "WL1 BCM4318",
         "pci:14e4:4318",
         "Mini PCI",
         "b43 / 3.14.5-1",
@@ -14,7 +14,7 @@
     ],
     [
         "Unex DNUA-93F",
-        "AR9271",
+        "AR9002U / WL1 AR9271",
         "usb:0cf3:9271",
         "USB 2.0",
         "ath9k_htc / 3.14.5-1",
@@ -27,10 +27,10 @@
     ],
     [
         "ALFA Network AWUS051NH; The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11n works only on 2.4GHz. With the 3.17-rc3-1 driver it can capture WPA handshakes on 5GHz, but it can run only as a completely passive attack.",
-        "RT2770",
+        "WL1 RT2770 / WL2 RT2750",
         "usb:148f:2770",
         "USB 2.0",
-        "rt2800usb / 3.17-rc3-1",
+        "rt2800usb / 3.18-rc1-1",
         "OK",
         "OK",
         "OK",
@@ -40,7 +40,7 @@
     ],
     [
         "Canyon CNP-WF518N1",
-        "RT3070",
+        "WL1 RT3070",
         "usb:148f:3070",
         "USB 2.0",
         "rt2800usb / 3.14.5-1",
@@ -53,7 +53,7 @@
     ],
     [
         "Naked adapter; The adapter was sold without casing. It is only the board with a soldered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.",
-        "RTL8188CUS",
+        "WL1 RTL8188CUS",
         "usb:0bda:8176",
         "USB 2.0",
         "rtl8192cu / 3.14.5-1",
@@ -66,7 +66,7 @@
     ],
     [
         "TP-LINK TL-WN722N",
-        "AR9271",
+        "AR9002U / WL1 AR9271",
         "usb:0cf3:9271",
         "USB 2.0",
         "ath9k_htc / 3.14.5-1",
@@ -79,7 +79,7 @@
     ],
     [
         "ALFA Network AWUS036H",
-        "RTL8187",
+        "WL1 RTL8187",
         "usb:0bda:8187",
         "USB 2.0",
         "rtl8187 / 3.14.5-1",
@@ -92,7 +92,7 @@
     ],
     [
         "WiFi Link 5100",
-        "2 x WG82541RDE",
+        "WL1 WG82541MDE / WL2 WG82541RDE",
         "pci:8086:4232",
         "Mini PCIe",
         "iwlwifi / 3.14.5-1",
@@ -104,10 +104,10 @@
         "No"
     ],
     [
-        "MacBook Air 6,2; The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href=\"http://www.broadcom.com/docs/linux_sta/README.txt\">this document</a>. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.",
+        "Broadcom BCM94360CD; The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href=\"http://www.broadcom.com/docs/linux_sta/README.txt\">this document</a>. The card is installed into a MacBook Air 6,2. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.",
         "BCM4360",
         "pci:14e4:43a0",
-        "Soldered",
+        "PCIe (non-standard)",
         "wl / 6.30.223.248",
         "No",
         "No",
@@ -118,7 +118,7 @@
     ],
     [
         "Netis WF2190; The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.",
-        "RTL8812AU",
+        "WL1 RTL8812AU",
         "usb:0bda:8812",
         "USB 3.0",
         "8812au / 4.3.8",
@@ -128,5 +128,18 @@
         "No",
         "No",
         "No"
+    ],
+    [
+        "Foxconn T77H167.00",
+        "WL1 AR9287",
+        "pci:168c:002e",
+        "Mini PCIe (half)",
+        "ath9k_htc / 3.14.5-1",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "Untested"
     ]
 ]
