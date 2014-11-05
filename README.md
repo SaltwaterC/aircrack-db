@@ -1,6 +1,6 @@
 # aircrack-db
 
-aircrack-db is a list of wireless interfaces tested with the dual-card injection test and in the field.
+aircrack-db is a list of wireless cards tested with the dual-card injection test and in the field.
 
 The driver name is the name of the kernel module used by the card.
 
