@@ -175,6 +175,19 @@
 				<td><span class="label label-success">OK</span></td>
 				<td><span class="label label-warning">Untested</span></td>
 			</tr>
+			<tr>
+				<td>Ovislink AirLive X.USB <a href="#note-5"><sup>5</sup></a></td>
+				<td>AR9001U-2NX / WL 1 AR9170 / WL2 AR9104</td>
+				<td><a href="https://usb-ids.gowdy.us/read/UD/1b75/9170">1b75:9170</a></td>
+				<td>USB 2.0</td>
+				<td>carl9170 / 3.18-rc3-1</td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">Failed</span></td>
+				<td><span class="label label-danger">No</span></td>
+			</tr>
 		</tbody>
 	</table>
 	
@@ -188,6 +201,8 @@
 			<div class="list-group-item"><a name="note-3"></a>3: The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href="http://www.broadcom.com/docs/linux_sta/README.txt">this document</a>. The card is installed into a MacBook Air 6,2. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.</div>
 			<div class="list-group-separator"></div>
 			<div class="list-group-item"><a name="note-4"></a>4: The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-5"></a>5: The card supports monitor mode, but the injection failed on my virtual test rig. Which is odd because I've seen video materials where a carl9170 device was used for demonstrating wireless attacks. I'll repeat the test with some bare metal Kali installations, but the chances to get another result are slim. The 5GHz support is worse than ALFA's AWUS051NH.</div>
 		</div>
 	</div>
 	
@@ -211,6 +226,8 @@
 			<div class="list-group-item">8086 - Intel Corporation</div>
 			<div class="list-group-separator"></div>
 			<div class="list-group-item">168c - Atheros Communications Inc.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item">1b75 - Ovislink Corp.</div>
 		</div>
 	</div>
 	
