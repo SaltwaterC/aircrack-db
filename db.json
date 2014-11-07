@@ -141,5 +141,18 @@
         "OK",
         "OK",
         "Untested"
-    ]
+    ],
+	[
+		"Ovislink AirLive X.USB; The card supports monitor mode, but the injection failed on my virtual test rig. Which is odd because I've seen video materials where a carl9170 device was used for demonstrating wireless attacks. I'll repeat the test with some bare metal Kali installations, but the chances to get another result are slim. The 5GHz support is worse than ALFA's AWUS051NH.",
+		"AR9001U-2NX / WL 1 AR9170 / WL2 AR9104",
+		"usb:1b75:9170",
+		"USB 2.0",
+		"carl9170 / 3.18-rc3-1",
+		"Failed",
+		"Failed",
+		"Failed",
+		"Failed",
+		"Failed",
+		"No"
+	]
 ]
