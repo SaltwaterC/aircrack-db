@@ -143,7 +143,7 @@
         "Untested"
     ],
     [
-        "Ovislink AirLive X.USB; The card supports monitor mode, but the injection fails. The 5GHz support is worse than ALFA's AWUS051NH.",
+        "Ovislink AirLive X.USB; The card supports monitor mode, but the injection fails. On 5GHz, AWUS051NH is better. This card can see only 802.11a traffic.",
         "AR9001U-2NX / WL 1 AR9170 / WL2 AR9104",
         "usb:1b75:9170",
         "USB 2.0",
