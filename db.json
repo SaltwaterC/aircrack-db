@@ -143,16 +143,16 @@
         "Untested"
     ],
     [
-        "Ovislink AirLive X.USB; The card supports monitor mode, but the injection fails. On 5GHz, AWUS051NH is better. This card can see only 802.11a traffic.",
+        "Ovislink AirLive X.USB; Tested under Debian 6 with compat-wireless 2.6.39-1 and the ar9170usb driver. Some patches needed. This driver was dropped from the mainline kernel since 3.0 in favor of carl9170 which badly suports monitor mode and only monitor mode. You don't get packet injection with carl9170. Untested under 5GHz.",
         "AR9001U-2NX / WL 1 AR9170 / WL2 AR9104",
         "usb:1b75:9170",
         "USB 2.0",
-        "carl9170 / 3.18-rc3-1",
-        "Failed",
-        "Failed",
-        "Failed",
-        "Failed",
-        "Failed",
-        "No"
+        "ar9170usb / 2.6.39-1",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "Yes"
     ]
 ]
