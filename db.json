@@ -154,5 +154,31 @@
         "OK",
         "OK",
         "Yes"
+    ],
+    [
+        "WiFi Pineapple Mark V; Both cards are equally capable for injecting packets. While AR9331 supports 802.11n, the RTL8187L interface has better TX power (27 dBm vs. 18 dBm).",
+        "AR9331 SoC + WL1 / WL2 RTL8187L",
+        "WiSoC / USB ID 0bda:8187",
+        "WiSoC / Internal USB 2.0",
+        "ath9k / rtl8187 / 3.3.8",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "Untested"
+    ],
+    [
+        "ASUS WL-500g Premium V2; Tested against an ALFA AWUS036H connected via USB. Running OpenWrt 14.07 (Brarrier Breaker).",
+        "BCM5354 SoC + WL1",
+        "WiSoC",
+        "WiSoC",
+        "b43 / 3.10.49",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "Untested"
     ]
 ]
