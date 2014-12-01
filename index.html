@@ -187,6 +187,32 @@
 				<td><span class="label label-success">OK</span></td>
 				<td><span class="label label-success">Yes</span></td>
 			</tr>
+			<tr>
+				<td>WiFi Pineapple Mark V <a href="#note-6"><sup>6</sup></a></td>
+				<td>AR9331 SoC + WL1 / WL2 RTL8187L</td>
+				<td>WiSoC / USB ID 0bda:8187</td>
+				<td>WiSoC / Internal USB 2.0</td>
+				<td>ath9k / rtl8187 / 3.3.8</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-warning">Untested</span></td>
+			</tr>
+			<tr>
+				<td>ASUS WL-500g Premium V2 <a href="#note-7"><sup>7</sup></a></td>
+				<td>BCM5354 SoC + WL1</td>
+				<td>WiSoC</td>
+				<td>WiSoC</td>
+				<td>b43 / 3.10.49</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-warning">Untested</span></td>
+			</tr>
 		</tbody>
 	</table>
 	
@@ -202,6 +228,10 @@
 			<div class="list-group-item"><a name="note-4"></a>4: The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.</div>
 			<div class="list-group-separator"></div>
 			<div class="list-group-item"><a name="note-5"></a>5: Tested under Debian 6 with compat-wireless 2.6.39-1 and the ar9170usb driver. The 5GHz support is the same as AWUS051NH. Some patches needed to build this driver. ar9170usb was dropped from the mainline kernel since 3.0 in favor of carl9170 which badly suports monitor mode and only monitor mode. You don't get packet injection with carl9170.</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-6"></a>6: Both cards are equally capable for injecting packets. While AR9331 supports 802.11n, the RTL8187L interface has better TX power (27 dBm vs. 18 dBm).</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-7"></a>7: Tested against an ALFA AWUS036H connected via USB. Running OpenWrt 14.07 (Brarrier Breaker).</div>
 		</div>
 	</div>
 	
