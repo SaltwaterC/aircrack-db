@@ -45,7 +45,7 @@
 				<td><span class="label label-success">Yes</span></td>
 			</tr>
 			<tr>
-				<td>Unex DNUA-93F</td>
+				<td>Unex DNUA-93F <a href="#note-1"><sup>1</sup></a></td>
 				<td>AR9002U / WL1 AR9271</td>
 				<td><a href="https://usb-ids.gowdy.us/read/UD/0cf3/9271">0cf3:9271</a></td>
 				<td>USB 2.0</td>
@@ -58,7 +58,7 @@
 				<td><span class="label label-success">Yes</span></td>
 			</tr>
 			<tr>
-				<td>ALFA Network AWUS051NH <a href="#note-1"><sup>1</sup></a></td>
+				<td>ALFA Network AWUS051NH <a href="#note-2"><sup>2</sup></a></td>
 				<td>WL1 RT2770 / WL2 RT2750</td>
 				<td><a href="https://usb-ids.gowdy.us/read/UD/148f/2770">148f:2770</a></td>
 				<td>USB 2.0</td>
@@ -84,7 +84,7 @@
 				<td><span class="label label-success">Yes</span></td>
 			</tr>
 			<tr>
-				<td>Naked adapter <a href="#note-2"><sup>2</sup></a></td>
+				<td>Naked adapter <a href="#note-3"><sup>3</sup></a></td>
 				<td>WL1 RTL8188CUS</td>
 				<td><a href="https://usb-ids.gowdy.us/read/UD/0bda/8176">0bda:8176</a></td>
 				<td>USB 2.0</td>
@@ -136,7 +136,7 @@
 				<td><span class="label label-danger">No</span></td>
 			</tr>
 			<tr>
-				<td>Broadcom BCM94360CD <a href="#note-3"><sup>3</sup></a></td>
+				<td>Broadcom BCM94360CD <a href="#note-4"><sup>4</sup></a></td>
 				<td>WL1 BCM4360</td>
 				<td><a href="http://pci-ids.ucw.cz/read/PC/14e4/43a0">14e4:43a0</a></td>
 				<td>PCIe (non-standard)</td>
@@ -149,7 +149,7 @@
 				<td><span class="label label-danger">No</span></td>
 			</tr>
 			<tr>
-				<td>Netis WF2190 <a href="#note-4"><sup>4</sup></a></td>
+				<td>Netis WF2190 <a href="#note-5"><sup>5</sup></a></td>
 				<td>WL1 RTL8812AU</td>
 				<td><a href="https://usb-ids.gowdy.us/read/UD/0bda/8812">0bda:8812</a></td>
 				<td>USB 3.0</td>
@@ -175,7 +175,7 @@
 				<td><span class="label label-warning">Untested</span></td>
 			</tr>
 			<tr>
-				<td>OvisLink AirLive X.USB <a href="#note-5"><sup>5</sup></a></td>
+				<td>OvisLink AirLive X.USB <a href="#note-6"><sup>6</sup></a></td>
 				<td>AR9001U-2NX / WL 1 AR9170 / WL2 AR9104</td>
 				<td><a href="https://usb-ids.gowdy.us/read/UD/1b75/9170">1b75:9170</a></td>
 				<td>USB 2.0</td>
@@ -188,7 +188,7 @@
 				<td><span class="label label-success">Yes</span></td>
 			</tr>
 			<tr>
-				<td>WiFi Pineapple Mark V <a href="#note-6"><sup>6</sup></a></td>
+				<td>WiFi Pineapple Mark V <a href="#note-7"><sup>7</sup></a></td>
 				<td>AR9331 SoC + WL1 / WL2 RTL8187L</td>
 				<td>WiSoC / USB ID 0bda:8187</td>
 				<td>WiSoC / Internal USB 2.0</td>
@@ -201,11 +201,24 @@
 				<td><span class="label label-warning">Untested</span></td>
 			</tr>
 			<tr>
-				<td>ASUS WL-500g Premium V2 <a href="#note-7"><sup>7</sup></a></td>
+				<td>ASUS WL-500g Premium V2 <a href="#note-8"><sup>8</sup></a></td>
 				<td>BCM5354 SoC + WL1</td>
 				<td>WiSoC</td>
 				<td>WiSoC</td>
 				<td>b43 / 3.10.49</td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-success">OK</span></td>
+				<td><span class="label label-warning">Untested</span></td>
+			</tr>
+			<tr>
+				<td>Unex DHXA-225 <a href="#note-9"><sup>9</sup></a></td>
+				<td>WL 1 AR9485 / BT AR3012</td>
+				<td><a href="http://pci-ids.ucw.cz/read/PC/168c/0032">168c:0032</a></td>
+				<td>Mini PCIe (half)</td>
+				<td>ath9k / 3.5.0-44</td>
 				<td><span class="label label-success">OK</span></td>
 				<td><span class="label label-success">OK</span></td>
 				<td><span class="label label-success">OK</span></td>
@@ -219,19 +232,23 @@
 	<div>
 		<p>Notes:</p>
 		<div class="list-group">
-			<div class="list-group-item"><a name="note-1"></a>1: The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11n works only on 2.4GHz. With the 3.17-rc3-1 driver it can capture WPA handshakes on 5GHz, but it can run only as a completely passive attack.</div>
+			<div class="list-group-item"><a name="note-1"></a>1: May be known as <a href="https://tehnoetic.com/tehnoetic-wireless-adapter-gnu-linux-libre-tet-n150">TET-N150</a> as I boght it from Tehnoetic.</div>
 			<div class="list-group-separator"></div>
-			<div class="list-group-item"><a name="note-2"></a>2: The adapter was sold without casing. It is only the board with a soldered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.</div>
+			<div class="list-group-item"><a name="note-2"></a>2: The 5GHz frequency band is for IEEE 802.11a mode only. It can read beacons sent by IEEE 802.11n/ac networks, but the packet injection won't work for these modes. Packet injection for IEEE 802.11n works only on 2.4GHz. With the 3.17-rc3-1 driver it can capture WPA handshakes on 5GHz, but it can run only as a completely passive attack.</div>
 			<div class="list-group-separator"></div>
-			<div class="list-group-item"><a name="note-3"></a>3: The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href="http://www.broadcom.com/docs/linux_sta/README.txt">this document</a>. The card is installed into a MacBook Air 6,2. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.</div>
+			<div class="list-group-item"><a name="note-3"></a>3: The adapter was sold without casing. It is only the board with a soldered USB port. While the OUI indicates B-Link as manufacturer, it is unrelated to 8level WUSB-150A.</div>
 			<div class="list-group-separator"></div>
-			<div class="list-group-item"><a name="note-4"></a>4: The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.</div>
+			<div class="list-group-item"><a name="note-4"></a>4: The monitoring mode on Broadcom STA / wl may be enabled via arcane methods described in <a href="http://www.broadcom.com/docs/linux_sta/README.txt">this document</a>. The card is installed into a MacBook Air 6,2. I'll test it as soon as the UEFI boot is fixed with Kali as it is broken since the OS X 10.9.5 update.</div>
 			<div class="list-group-separator"></div>
-			<div class="list-group-item"><a name="note-5"></a>5: Tested under Debian 6 with compat-wireless 2.6.39-1 and the ar9170usb driver. The 5GHz support is the same as AWUS051NH. Some patches needed to build this driver. ar9170usb was dropped from the mainline kernel since 3.0 in favor of carl9170 which badly suports monitor mode and only monitor mode. You don't get packet injection with carl9170.</div>
+			<div class="list-group-item"><a name="note-5"></a>5: The GPL driver supplied by Realtek doesn't seem to implement the monitor mode.</div>
 			<div class="list-group-separator"></div>
-			<div class="list-group-item"><a name="note-6"></a>6: Both cards are equally capable for injecting packets. While AR9331 supports 802.11n, the RTL8187L interface has better TX power (27 dBm vs. 18 dBm).</div>
+			<div class="list-group-item"><a name="note-6"></a>6: Tested under Debian 6 with compat-wireless 2.6.39-1 and the ar9170usb driver. The 5GHz support is the same as AWUS051NH. Some patches needed to build this driver. ar9170usb was dropped from the mainline kernel since 3.0 in favor of carl9170 which badly suports monitor mode and only monitor mode. You don't get packet injection with carl9170.</div>
 			<div class="list-group-separator"></div>
-			<div class="list-group-item"><a name="note-7"></a>7: Tested against an ALFA AWUS036H connected via USB. Running OpenWrt 14.07 (Brarrier Breaker).</div>
+			<div class="list-group-item"><a name="note-7"></a>7: Both cards are equally capable for injecting packets. While AR9331 supports 802.11n, the RTL8187L interface has better TX power (27 dBm vs. 18 dBm).</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-8"></a>8: Tested against an ALFA AWUS036H connected via USB. Running OpenWrt 14.07 (Brarrier Breaker).</div>
+			<div class="list-group-separator"></div>
+			<div class="list-group-item"><a name="note-9"></a>9: Tested under Trisquel 6 with a trunk build of aircrack-ng.</div>
 		</div>
 	</div>
 	
