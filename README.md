@@ -15,7 +15,7 @@ Aircrack-ng's wiki page about [injection testing](http://www.aircrack-ng.org/dok
 
 > If you get a failure on attack 5, it may still work in the field if the injection MAC address matches the current card MAC address. With some drivers, it will fail if they are not the same.
 
-If the wireless interface proves to work in my lab for the fragmentation attack, then it is going to be mentioned in a separate column. I use Kali Linux 1.0.9 and Aircrack-ng 1.2-beta3 for gatherting this information.
+If the wireless interface proves to work in my lab for the fragmentation attack, then it is going to be mentioned in a separate column. I use Kali Linux (up to date for each new test) and Aircrack-ng (trunk build) for gatherting most of this information. Otherwise, it is specified as a notice.
 
 Due to the fact that GitHub uses "toiler paper design", hence I can't fit a table without having a horizontal scroll, even on a FullHD screen, the information about the hardware is [here](http://saltwaterc.github.io/aircrack-db).
 
