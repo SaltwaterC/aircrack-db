@@ -34,14 +34,7 @@
 %data%
 		</tbody>
 	</table>
-	
-	<div>
-		<p>Notes:</p>
-		<div class="list-group">
-%notes%
-		</div>
-	</div>
-	
+
 	<div class="panel panel-default">
 		<div class="panel-body">
 			-0 / -1 / -2 / -3 / -4 / -5 / -6 / -7 - the attack modes of aireplay-ng with the results for the card to card injection test
@@ -49,7 +42,14 @@
 	</div>
 	
 	<div>
-		<p>Chipset vendors:</p>
+		<p><strong>Notes:</strong></p>
+		<div class="list-group">
+%notes%
+		</div>
+	</div>
+
+	<div>
+		<p><strong>Chipset vendors:</strong></p>
 		<div class="list-group">
 			<div class="list-group-item">14e4 - Broadcom Corporation</div>
 			<div class="list-group-separator"></div>
