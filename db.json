@@ -182,7 +182,7 @@
         "Untested"
     ],
     [
-        "Unex DHXA-225",
+        "Unex DHXA-225; Tested under Trisquel 6 with a trunk build of aircrack-ng.",
         "WL 1 AR9485 / BT AR3012",
         "pci:168c:0032",
         "Mini PCIe (half)",
