@@ -18,7 +18,7 @@
 		<thead>
 			<tr>
 				<th>Product</th>
-				<th>Chipset</th>
+				<th>Chipset / WL</th>
 				<th>PCI / USB ID</th>
 				<th>Interface</th>
 				<th>Driver / Version</th>
