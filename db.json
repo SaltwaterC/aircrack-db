@@ -194,17 +194,17 @@
         "OK",
         "Untested"
     ],
-	[
-		"Lite-On WCBN606AH",
-		"AR9002WB-1NGCD / WL 1 AR9285",
-		"pci:168c:002b",
-		"Mini PCIe (half)",
-		"ath9k / 3.14.5-1",
+    [
+        "Lite-On WCBN606AH",
+        "AR9002WB-1NGCD / WL 1 AR9285",
+        "pci:168c:002b",
+        "Mini PCIe (half)",
+        "ath9k / 3.14.5-1",
         "OK",
         "OK",
         "OK",
         "OK",
         "OK",
         "Untested"
-	]
+    ]
 ]
